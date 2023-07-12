@@ -1,0 +1,475 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  padding: 22px 49px;
+  background-color: #331b3b;
+  border-radius: 10px;
+}
+.btn a {
+  color: #fff;
+  font-family: Hind Vadodara;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 137.3%;
+  letter-spacing: 0.34px;
+  text-transform: uppercase;
+}
+img {
+  display: block;
+}
+/* ======================================== */
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-top: 50px;
+}
+nav img {
+  position: absolute;
+  right: 0;
+  width: 630px;
+  height: px;
+}
+nav .container ul {
+  display: flex;
+  column-gap: 42px;
+}
+nav ul li a {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  transition: all linear 0.3s;
+}
+nav ul li a:hover {
+  transform: scale(1.05);
+}
+nav .website__name h2 {
+  color: #331b3b;
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+nav .social__media a {
+  border: 2px solid #331b3ba3;
+  color: #331b3ba3;
+  width: 43.614px;
+  height: 49.614px;
+  border-radius: 35px 25px 36px 25px;
+  line-height: 43px;
+  text-align: center;
+  font-size: 20px;
+}
+/* ================================================== */
+#hero__section .row {
+  width: 100%;
+  align-items: center;
+}
+
+#hero__section .container {
+  margin-top: 50px;
+}
+
+#hero__section .text h1 {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 87px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 99.8%;
+  letter-spacing: -0.87px;
+  width: 498px;
+}
+#hero__section .text h2 {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 67px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 99.8%;
+  letter-spacing: -0.87px;
+  width: 498px;
+}
+#hero__section .text p {
+  color: rgba(51, 27, 59, 0.66);
+  font-family: Hind Vadodara;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.3%;
+  letter-spacing: 0.34px;
+  width: 515px;
+  margin: 27px 0 53px;
+}
+#hero__section .row {
+  margin: 0;
+}
+#hero__section .image__part {
+  position: relative;
+}
+#hero__section .image__part img {
+  margin-left: 280px;
+  width: 350px;
+  height: 530px;
+}
+#hero__section .second__image img {
+  width: 590px;
+  height: 440px;
+}
+#hero__section .second__image {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+#hero__section button {
+  margin-bottom: 148px;
+}
+/* ==================================================== */
+#business__part {
+  padding: 92px 0 100px;
+  background: #ecf7ff;
+}
+
+#business__part .heading {
+  text-align: center;
+  width: 100%;
+}
+
+#business__part h2 {
+  color: #331b3b;
+  text-align: center;
+  font-family: Hind Vadodara;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106.3%;
+  letter-spacing: -0.48px;
+}
+#business__part h3 {
+  color: #331b3b;
+  text-align: center;
+  font-family: Hind Vadodara;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.3%;
+  letter-spacing: -0.48px;
+  margin-bottom: 95px;
+}
+#business__part .business__box {
+  display: flex;
+  justify-content: space-evenly;
+}
+#business__part .box {
+  padding: 18px 17px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+  width: 308px;
+}
+#business__part .box img {
+  border-radius: 10px;
+  padding: 9px 11px;
+}
+#business__part .box .web__design {
+  background: #ffded4;
+}
+#business__part .box .web__development {
+  background: #ffeed4;
+}
+#business__part .box .mobile__app {
+  background: #d4f0ff;
+}
+#business__part .box h4 {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 137.3%;
+  letter-spacing: 0.88px;
+  text-transform: uppercase;
+  margin: 13px 0 6px;
+}
+#business__part .box p {
+  color: rgba(51, 27, 59, 0.66);
+  font-family: Hind Vadodara;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 145.3%;
+  letter-spacing: 0.3px;
+}
+/* =================================================== */
+
+#about__section {
+  padding: 128px 0 164px;
+}
+#about__section .image__part {
+  position: relative;
+}
+#about__section .second__image {
+  position: absolute;
+  left: 0;
+  top: -200px;
+}
+
+#about__section .row {
+  align-items: center;
+}
+#about__section .heading {
+  text-align: center;
+}
+#about__section .heading h2 {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106.3%;
+  letter-spacing: -0.48px;
+}
+#about__section .heading h3 {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.3%;
+  letter-spacing: -0.48px;
+}
+#about__section .heading p {
+  color: rgba(51, 27, 59, 0.66);
+  font-family: Hind Vadodara;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.3%;
+  letter-spacing: 0.34px;
+}
+#about__section .first__pera {
+  margin: 22px 0 9px;
+}
+/* ========================================== */
+#recent__work {
+  padding: 59px 0 84px;
+  background: #ffded44d;
+}
+#recent__work .text__heading h2 {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106.3%;
+  letter-spacing: -0.48px;
+}
+#recent__work .text__heading h3 {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.3%;
+  letter-spacing: -0.48px;
+}
+#recent__work .row {
+  align-items: center;
+}
+#recent__work .images__box {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+  padding: 24px 5px;
+  margin-top: 89px;
+}
+#recent__work .images__box .images {
+  display: flex;
+}
+#recent__work .images__box .images img {
+  width: 100%;
+}
+#recent__work .images__box .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+#recent__work .images__box .info h5 {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 146.3%;
+}
+#recent__work .images__box .info button {
+  border-radius: 100px;
+  border: 1px solid #343434;
+  padding: 2px 12px;
+}
+#recent__work .images__box .info button a {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 146.3%;
+}
+/* ===================================================== */
+#testimonial__section .row {
+  column-gap: 30px;
+}
+
+#testimonial__section .heading {
+  text-align: center;
+  width: 100%;
+  padding: 75px 0 59px;
+}
+#testimonial__section .heading h2 {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110.8%;
+  letter-spacing: -0.48px;
+}
+#testimonial__section .heading h3 {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110.8%;
+  letter-spacing: -0.48px;
+}
+
+#testimonial__section .reviews {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+#testimonial__section .testimonial__box {
+  padding: 24px 35px 39px 29px;
+  width: 448px;
+  background: #fff;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
+  margin-bottom: 94px;
+}
+#testimonial__section .testimonial__box p {
+  color: #331b3b;
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 159.3%;
+  letter-spacing: 0.32px;
+  margin: 18px 0 4px;
+}
+#testimonial__section .testimonial__box h6 {
+  color: #000;
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 159.3%;
+  letter-spacing: 0.32px;
+}
+#testimonial__section .testimonial__box h6 span {
+  color: #fdc221;
+  margin-right: 5px;
+  font-size: 23px;
+}
+/* ======================================= */
+footer {
+  padding: 66px 152px 76px 51px;
+  border-radius: 0px 158px 0px 0px;
+  background: #000;
+}
+footer h2 {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+footer p {
+  color: #fff;
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 159.3%;
+  letter-spacing: 0.32px;
+  width: 439px;
+  margin: 15px 0 20px;
+}
+footer h5 {
+  color: #fff;
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 159.3%;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+footer input {
+  padding: 14px 110px 14px 13px;
+  color: #fff;
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 159.3%;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  background: #000;
+  border: 1px solid #fff;
+}
+footer button {
+  padding: 14px 52px;
+  color: #000;
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 159.3%;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  margin-left: -10px;
+}
